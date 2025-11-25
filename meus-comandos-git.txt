@@ -45,3 +45,12 @@ ls -la
 
 # 🔟 MEU REPOSITÓRIO NO GITHUB:
 # https://github.com/studycert/simulado-itil
+
+# 🔗 URLS PARA TESTAR NO NAVEGADOR:
+https://studycert.github.io/simulado-itil/simulado-itil4-02.html
+https://studycert.github.io/simulado-itil/simulado-itil4-01.html
+https://studycert.github.io/simulado-itil/
+
+# 🔐 TOKEN:
+# 1. Acesse: https://github.com/settings/personal-access-tokens
+
