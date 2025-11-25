@@ -1,0 +1,47 @@
+# MEUS COMANDOS GIT - DIRETÓRIO: /home/andre/
+# ============================================
+
+# 1️⃣ INSTALAÇÃO DO GIT (feito uma vez)
+sudo apt update
+sudo apt install git -y
+
+# 2️⃣ CLONAR MEU REPOSITÓRIO
+cd /home/andre/
+git clone https://github.com/studycert/simulado-itil.git
+cd simulado-itil
+
+# 3️⃣ COPIAR ARQUIVOS DA PASTA DOWNLOADS
+cp /home/andre/Downloads/simulado-itil4-02.html .
+
+# 4️⃣ CONFIGURAR MEU USUÁRIO (já feito)
+git config --global user.name "studycert"
+git config --global user.email "group.certstudy@gmail.com"
+
+# 5️⃣ ENVIAR ARQUIVOS PARA O GITHUB
+git add simulado-itil4-02.html
+git commit -m "Adiciona simulado-itil4-02.html"
+git push origin main
+
+# 6️⃣ VERIFICAR SE DEU CERTO
+git log --oneline
+ls -la
+
+# 7️⃣ COMANDOS QUE USEI E FUNCIONARAM:
+# git clone https://github.com/studycert/simulado-itil.git
+# cd simulado-itil
+# cp ~/Downloads/simulado-itil4-02.html .
+# git add simulado-itil4-02.html
+# git commit -m "Adiciona simulado-itil4-02.html"
+# git push origin main
+
+# 8️⃣ PARA ADICIONAR MAIS ARQUIVOS FUTURAMENTE:
+# cp /home/andre/Downloads/novo-arquivo.html .
+# git add novo-arquivo.html
+# git commit -m "Adiciona novo-arquivo.html"
+# git push origin main
+
+# 9️⃣ MEU DIRETÓRIO DE TRABALHO:
+# /home/andre/simulado-itil/
+
+# 🔟 MEU REPOSITÓRIO NO GITHUB:
+# https://github.com/studycert/simulado-itil
